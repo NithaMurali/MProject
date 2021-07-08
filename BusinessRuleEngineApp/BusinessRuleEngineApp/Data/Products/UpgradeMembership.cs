@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BusinessRuleEngineApp.Data.Products
 {
-    class UpgradeMembership : IItem
+    public class UpgradeMembership : IItem
     {
         public UpgradeMembership(string Name)
         {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BusinessRuleEngineApp.Data.Products
 {
-    class Book : IItem
+    public class Book : IItem
     {
         public Book(string Name)
         {

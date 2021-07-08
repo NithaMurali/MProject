@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BusinessRuleEngineApp.Data
 {
-    class PhysicalProduct : IItem
+   public class PhysicalProduct : IItem
     {
         public PhysicalProduct(string itemName)
         {

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BusinessRuleEngineApp.Data
 {
-    class Video : IItem
+    public class Video : IItem
     {
         public Video(string Name)
         {
