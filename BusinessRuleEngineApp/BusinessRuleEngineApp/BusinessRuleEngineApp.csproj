@@ -50,6 +50,7 @@
     <Compile Include="Data\Interfaces\IRule.cs" />
     <Compile Include="Data\Products\UpgradeMembership.cs" />
     <Compile Include="Data\Products\Video.cs" />
+    <Compile Include="PaymentEngine.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rules\BookRule.cs" />
@@ -59,7 +60,7 @@
     <Compile Include="Rules\PhysicalProductRule.cs" />
     <Compile Include="Rules\UpgradeMembershipRule.cs" />
     <Compile Include="Rules\VideoRule.cs" />
-    <Compile Include="Utils\ComplimentaryViewMap.cs" />
+    <Compile Include="Utils\ComplimentaryVideoMap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

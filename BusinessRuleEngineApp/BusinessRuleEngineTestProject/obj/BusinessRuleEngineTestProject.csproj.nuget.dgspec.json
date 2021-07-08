@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Nitha\\Personal\\Maersk\\MProject\\BusinessRuleEngineApp\\BusinessRuleEngineTestProject\\BusinessRuleEngineTestProject.csproj": {}
+  },
+  "projects": {
+    "D:\\Nitha\\Personal\\Maersk\\MProject\\BusinessRuleEngineApp\\BusinessRuleEngineApp\\BusinessRuleEngineApp.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Nitha\\Personal\\Maersk\\MProject\\BusinessRuleEngineApp\\BusinessRuleEngineApp\\BusinessRuleEngineApp.csproj",
+        "projectName": "BusinessRuleEngineApp",
+        "projectPath": "D:\\Nitha\\Personal\\Maersk\\MProject\\BusinessRuleEngineApp\\BusinessRuleEngineApp\\BusinessRuleEngineApp.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Nitha\\Personal\\Maersk\\MProject\\BusinessRuleEngineApp\\BusinessRuleEngineTestProject\\BusinessRuleEngineTestProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Nitha\\Personal\\Maersk\\MProject\\BusinessRuleEngineApp\\BusinessRuleEngineTestProject\\BusinessRuleEngineTestProject.csproj",
+        "projectName": "BusinessRuleEngineTestProject",
+        "projectPath": "D:\\Nitha\\Personal\\Maersk\\MProject\\BusinessRuleEngineApp\\BusinessRuleEngineTestProject\\BusinessRuleEngineTestProject.csproj",
+        "packagesPath": "C:\\Users\\nitha.murali\\.nuget\\packages\\",
+        "outputPath": "D:\\Nitha\\Personal\\Maersk\\MProject\\BusinessRuleEngineApp\\BusinessRuleEngineTestProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nitha.murali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Nitha\\Personal\\Maersk\\MProject\\BusinessRuleEngineApp\\BusinessRuleEngineApp\\BusinessRuleEngineApp.csproj": {
+                "projectPath": "D:\\Nitha\\Personal\\Maersk\\MProject\\BusinessRuleEngineApp\\BusinessRuleEngineApp\\BusinessRuleEngineApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
