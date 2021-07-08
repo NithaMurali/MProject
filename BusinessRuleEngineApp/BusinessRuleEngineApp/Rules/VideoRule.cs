@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BusinessRuleEngineApp.Rules
 {
-    class VideoRule : IRule
+    public class VideoRule : IRule
     {
         
        void IRule.ApplyRule(string itemName)

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessRuleEngineApp.Rules
 {
-    class PhysicalProductRule : IRule
+    public class PhysicalProductRule : IRule
     {
         void IRule.ApplyRule(string itemName)
         {

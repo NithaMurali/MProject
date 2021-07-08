@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessRuleEngineApp.Rules
 {
-    class CommisionPaymentRule : IRule
+    public class CommisionPaymentRule : IRule
     {
         void IRule.ApplyRule(string itemName)
         {

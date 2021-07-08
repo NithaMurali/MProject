@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace BusinessRuleEngineApp.Rules
 {
    
-    class BookRule: IRule
+    public class BookRule: IRule
     {
         void IRule.ApplyRule(string itemName)
         {

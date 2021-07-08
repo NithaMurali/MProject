@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessRuleEngineApp.Rules
 {
-    class EmailRule : IRule
+    public class EmailRule : IRule
     {
         void IRule.ApplyRule(string itemName)
         {
