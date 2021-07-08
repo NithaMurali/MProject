@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessRuleEngineApp
 {
-    interface IRule
+    public interface IRule
     {
         void ApplyRule(string itemName);
     }

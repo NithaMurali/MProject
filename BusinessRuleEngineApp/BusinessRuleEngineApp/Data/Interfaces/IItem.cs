@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessRuleEngineApp.Data.Interfaces
 {
-    interface IItem
+    public interface IItem
     {
 
 
