@@ -7,14 +7,14 @@ namespace BusinessRuleEngineTestProject
     public class PaymentEngineTest
     {
         [TestMethod]
-        public void Test_InitializeProducts()
+        void Test_ProcessPayments()
         {
             //Arrange
-
+            PaymentEngine paymentEngine = new PaymentEngine();
             //Act
 
             //Assert
-            PaymentEngine.InitializeProducts();
+           // paymentEngine.InitializeProducts();
         }
     }
 }
