@@ -11,11 +11,12 @@ namespace BusinessRuleEngineTestProject
     [TestClass]
     public class PaymentEngineTest
     {
+        
         [TestMethod]
-        void Test_ProcessPayments()
+        void Test_InitializeProducts()
         {
             //Arrange
-            List<IItem>  cartItems = new List<IItem>();
+            List<IItem> cartItems = new List<IItem>();
             IItem phyProdItem = new PhysicalProduct("Physical Product");
             phyProdItem.AddRule(new PhysicalProductRule());
             phyProdItem.AddRule(new CommisionPaymentRule());
@@ -41,10 +42,38 @@ namespace BusinessRuleEngineTestProject
             cartItems.Add(upgradeMembershipItem);
 
             PaymentEngine paymentEngine = new PaymentEngine();
-            //Act
+
+
+             //Act
+            paymentEngine.InitializeProducts(cartItems);
 
             //Assert
-           // paymentEngine.InitializeProducts();
+
+        }
+
+
+
+        [TestMethod]
+        void Test_ProcessPayments()
+        {
+
+
+
+            //Arrange
+            PaymentEngine paymentEngine = new PaymentEngine();
+            List<IItem> cartItems = new List<IItem>();
+
+            //Act
+            paymentEngine.InitializeProducts(cartItems);
+            paymentEngine.ProcessPayments();
+
+            //Assert
+
         }
     }
+
+
+
+
+
 }
