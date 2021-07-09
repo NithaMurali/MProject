@@ -23,7 +23,7 @@ namespace BusinessRuleEngineTestProject
             paymentEngine.InitializeProducts(cartItems);
 
             //Assert
-
+            //check if the returned value has the required string
         }
 
         [TestMethod]
@@ -62,7 +62,7 @@ namespace BusinessRuleEngineTestProject
             paymentEngine.InitializeProducts(cartItems);
 
             //Assert
-
+            //check if the returned value has the required string
         }
 
         [TestMethod]
@@ -96,7 +96,7 @@ namespace BusinessRuleEngineTestProject
             paymentEngine.InitializeProducts(cartItems);
 
             //Assert
-
+            //check if the returned value has the required string
         }
 
 
@@ -115,7 +115,7 @@ namespace BusinessRuleEngineTestProject
             paymentEngine.ProcessPayments();
 
             //Assert
-
+            //check if the returned value has the required string
         }
 
         [TestMethod]
@@ -155,7 +155,7 @@ namespace BusinessRuleEngineTestProject
             paymentEngine.ProcessPayments();
 
             //Assert
-
+            //check if the returned value has the required string
         }
 
         [TestMethod]
@@ -190,7 +190,7 @@ namespace BusinessRuleEngineTestProject
             paymentEngine.ProcessPayments();
 
             //Assert
-
+            //check if the returned value has the required string
         }
 
         [TestMethod]
@@ -211,7 +211,7 @@ namespace BusinessRuleEngineTestProject
             paymentEngine.ProcessPayments();
 
             //Assert
-
+            //check if the returned value has the required string
         }
 
         [TestMethod]
@@ -232,7 +232,7 @@ namespace BusinessRuleEngineTestProject
             paymentEngine.ProcessPayments();
 
             //Assert
-
+            //check if the returned value has the required string
         }
 
         [TestMethod]
@@ -252,7 +252,7 @@ namespace BusinessRuleEngineTestProject
             paymentEngine.ProcessPayments();
 
             //Assert
-
+            //check if the returned value has the required string
         }
 
         [TestMethod]
@@ -274,7 +274,7 @@ namespace BusinessRuleEngineTestProject
             paymentEngine.ProcessPayments();
 
             //Assert
-
+            //check if the returned value has the required string
         }
 
         [TestMethod]
@@ -299,7 +299,7 @@ namespace BusinessRuleEngineTestProject
             paymentEngine.ProcessPayments();
 
             //Assert
-
+            //check if the returned value has the required string
         }
 
         [TestMethod]
@@ -321,7 +321,7 @@ namespace BusinessRuleEngineTestProject
             paymentEngine.ProcessPayments();
 
             //Assert
-
+            //check if the returned value has the required string
         }
     }
 
