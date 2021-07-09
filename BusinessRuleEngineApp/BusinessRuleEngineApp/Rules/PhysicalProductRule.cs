@@ -8,9 +8,13 @@ namespace BusinessRuleEngineApp.Rules
 {
     public class PhysicalProductRule : IRule
     {
-        void IRule.ApplyRule(string itemName)
+        string ruleApplied = "";
+
+        string IRule.ApplyRule(string itemName)
         {
-            Console.WriteLine("{0}: Packing slip generated for shipping", itemName);
+            ruleApplied = String.Format("{0}: Packing slip generated for shipping", itemName);
+            Console.WriteLine(ruleApplied);
+            return ruleApplied;
         }
     }
 }

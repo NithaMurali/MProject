@@ -8,9 +8,13 @@ namespace BusinessRuleEngineApp.Rules
 {
    public  class NewMembershipRule : IRule
     {
-        void IRule.ApplyRule(string itemName)
+        string ruleApplied = "";
+
+        string IRule.ApplyRule(string itemName)
         {
-            Console.WriteLine("{0}: Membership activated!", itemName);
+            ruleApplied = String.Format("{0}: Membership activated!", itemName);
+            Console.WriteLine(ruleApplied);
+            return ruleApplied;
         }
     }
 }

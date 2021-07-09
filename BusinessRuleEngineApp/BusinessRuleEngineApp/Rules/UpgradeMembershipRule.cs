@@ -8,9 +8,13 @@ namespace BusinessRuleEngineApp.Rules
 {
     public class UpgradeMembershipRule : IRule
     {
-        void IRule.ApplyRule(string itemName)
+        string ruleApplied = "";
+
+        string IRule.ApplyRule(string itemName)
         {
-            Console.WriteLine("{0}: Upgrade applied!", itemName);
+            ruleApplied = string.Format("{0}: Upgrade applied!", itemName);
+            Console.WriteLine(ruleApplied);
+            return ruleApplied;
         }
     }
 }

@@ -9,16 +9,20 @@ namespace BusinessRuleEngineApp.Rules
 {
     public class VideoRule : IRule
     {
-        
-       void IRule.ApplyRule(string itemName)
-        {
-            if(ComplimentaryVideoMap.GetComplimentaryVideoMap().complimentaryVideoMap.TryGetValue(itemName, out string complVideo))
-            {
-                Console.WriteLine("{0}: Adding {1} to packing slip!", itemName, complVideo);
+        string ruleApplied = "";
 
+        string IRule.ApplyRule(string itemName)
+        {
+            if (ComplimentaryVideoMap.GetComplimentaryVideoMap().complimentaryVideoMap.TryGetValue(itemName, out string complVideo))
+            {
+                ruleApplied = string.Format("{0}: Adding {1} to packing slip!", itemName, complVideo);
             }
             else
-                Console.WriteLine("{0}: Rule applied!",  itemName);
+            {
+                ruleApplied = string.Format("{0}: Rule applied!", itemName);
+            }
+            Console.WriteLine(ruleApplied);
+            return ruleApplied;
         }
     }
 }

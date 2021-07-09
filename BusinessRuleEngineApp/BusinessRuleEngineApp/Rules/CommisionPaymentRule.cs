@@ -8,9 +8,13 @@ namespace BusinessRuleEngineApp.Rules
 {
     public class CommisionPaymentRule : IRule
     {
-        void IRule.ApplyRule(string itemName)
+        string ruleApplied = "";
+
+        string IRule.ApplyRule(string itemName)
         {
-            Console.WriteLine("{0}:  Commission payment to agent generated!", itemName);
+            ruleApplied = String.Format("{0}:  Commission payment to agent generated!", itemName);
+            Console.WriteLine(ruleApplied);
+            return ruleApplied;
         }
     }
 }

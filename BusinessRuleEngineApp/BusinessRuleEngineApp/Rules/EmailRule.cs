@@ -8,9 +8,13 @@ namespace BusinessRuleEngineApp.Rules
 {
     public class EmailRule : IRule
     {
-        void IRule.ApplyRule(string itemName)
+        string ruleApplied = "";
+
+        string IRule.ApplyRule(string itemName)
         {
-            Console.WriteLine("{0}:  Email sent to owner!", itemName);
+            ruleApplied = String.Format("{0}:  Email sent to owner!", itemName);
+            Console.WriteLine(ruleApplied);
+            return ruleApplied;
         }
     }
 }
