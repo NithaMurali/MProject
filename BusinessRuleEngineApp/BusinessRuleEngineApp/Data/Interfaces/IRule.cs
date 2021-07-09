@@ -8,6 +8,6 @@ namespace BusinessRuleEngineApp
 {
     public interface IRule
     {
-        void ApplyRule(string itemName);
+        string ApplyRule(string itemName);
     }
 }
